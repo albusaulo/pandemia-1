@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cev | Consultar</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+	<div id="header"></div>
+	<br>
+	<div class="container">
+		<span id="mensagem"></span>
+		<div class="row">
+			<div class="col-lg-3">
+				<form id="buscarPessoa">
+					<div class="form-row">
+						<label for="cpf">Cpf</label>
+						<input name="cpf" type="number" class="form-control" id="cpf" placeholder="Digite cpf..." required>
+					</div>
+					<br>
+					<button type="button" class="btn btn-success btn-sm button" id="buttonBuscar">Buscar</button>
+				</form>
+				<div id="modalContainer">
+					<div id="loading"></div>
+				</div>
+			</div>
+			<div class="col-lg-9">
+				<div id="listarTabela"></div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap4.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/consultar.js"></script>
+
+</html>

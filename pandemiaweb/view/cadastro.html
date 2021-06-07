@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cev | Cadastro</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap4.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+	<div id="header"></div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<span id="mensagem"></span>
+				<form id="cadastroPessoa">
+					<div class="form-row">
+						<div class="col-md-3 mb-3">
+							<label for="name">Nome</label>
+							<input name="name" type="text" id="name" class="form-control" placeholder="Digite nome..."
+								required>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-md-3 mb-3">
+							<label for="cpf">Cpf</label>
+							<input name="cpf" type="number" class="form-control" id="cpf" placeholder="Digite cpf..." required>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col-md-3 mb-3">
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="vacina"
+									value="vacina" checked>
+								<label class="form-check-label" for="vacinas">
+									Vacina
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="exampleRadios" id="remedio"
+									value="remedio">
+								<label class="form-check-label" for="remedio">
+									Remédio
+								</label>
+							</div>
+						</div>
+					</div>
+				</form>
+				<button type="button" class="btn btn-success btn-sm button" id="buttonEnviar">Enviar</button>
+				<div id="modalContainer">
+					<div id="loading"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap4.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/cadastro.js"></script>
+
+</html>

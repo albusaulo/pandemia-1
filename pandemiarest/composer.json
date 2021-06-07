@@ -1,0 +1,22 @@
+{
+    "name": "saulo/pandemiarest",
+    "authors": [
+        {
+            "name": "Saulo Albuquerque",
+            "email": "albusaulo@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pandemia\\Utils\\": "utils/",
+            "Pandemia\\Controller\\": "controller/",
+            "Pandemia\\Service\\": "service/",
+            "Pandemia\\Model\\": "model/",
+            "Pandemia\\Dao\\": "dao/",
+            "Pandemia\\": ""
+        }
+    }
+}
