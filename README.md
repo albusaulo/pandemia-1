@@ -80,9 +80,11 @@ Envie-nos instruções claras de como rodar seu projeto (configurações de data
 ## Author Saulo Albuquerque
 Prezados(as).
 A aplicação possui:
-1 - Variavel de ambiente .config.ini que possui todas as informações de acesso ao banco.
+1 - Variável de ambiente .config.ini que possui todas as informações de acesso ao banco.
 2 - Sql na pasta Migrations.
-3 - O desenvolvimento do sistema é focado na arquitetura rest, com os protocolos HTTP, feito unico e exclusivamente com o PHP, consumindo com JS(jquery)/HTML/CSS/bootstrap, facilitando as integrações com microserviços e se caso necessario for uma possivél atualização.
-4 - Foi utilizada boas praticas de programação para melhor interpretação, entretando algumas functions foram documentadas para ajudar na avaliação do codigo.
-5 - Informo-vos ainda, que deixei em aberto a parte do SESSION e AUTH, para uma possivel criação de JWT com a criptografia SHA256 e login de usuarios para validação de requisições no projeto, deixando assim o mais seguro.
-6 - Desde já agradeço a oportunidade e fico feliz por participar deste seletivo, estou de prontidão para quaisquer dúvidas sobre o projeto.
+3 - O desenvolvimento do sistema é focado na arquitetura rest, com os protocolos HTTP, feito único e exclusivamente com o PHP, consumindo com JS(jquery)/HTML/CSS/bootstrap, facilitando as integrações com microserviços e se caso necessário for uma possível atualização.
+4 - Google charts JS, para criação de gráficos, na pagina de relatórios.
+5 - Foi utilizada boas praticas de programação para melhor interpretação, entretanto algumas functions foram documentadas para ajudar na avaliação do código.
+6 - Informo-vos, que sou apto para criação da documentação da API com a ferramenta Swagger, se caso necessário for.
+7 - Informo-vos ainda, que deixei em aberto a parte do SESSION e AUTH, para uma possível criação de JWT com a criptografia SHA256 e login de usuários para validação de requisições no projeto, deixando assim o mais seguro.
+8 - Desde já agradeço a oportunidade e fico feliz por participar deste seletivo, estou de prontidão para quaisquer dúvidas sobre o projeto.
